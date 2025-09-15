@@ -105,5 +105,38 @@ Les URL doivent être personnalisées par candidat selon le format :
 
 ---
 
+## Pages implémentées
+
+### Routes créées pour Andson :
+- **Page 1** : `/andson-completez-votre-reservation` - Interface de sélection des formules de test
+- **Page 2** : `/andson-paiement` - Interface de paiement et informations personnelles
+
+### Accès direct :
+- [Complétez votre réservation](http://127.0.0.1:8000/andson-completez-votre-reservation)
+- [Paiement](http://127.0.0.1:8000/andson-paiement)
+
+---
+
 ## Notes de design
-*Cette section sera complétée lors du développement des pages selon les maquettes Adobe XD.*
+
+### Choix d'implémentation :
+1. **Responsive Design** : Les cartes s'adaptent aux différentes tailles d'écran tout en respectant les proportions
+2. **Footer sticky** : Implémenté avec `position: fixed` pour rester visible en bas de page
+3. **Couleurs fidèles** :
+   - Vert pour la formule "Assurance" (sélectionnée par défaut)
+   - Bleu pour la formule "Complet"
+   - Gris pour la formule "Basic"
+   - Rose/magenta pour le bouton "Suivant"
+4. **Dimensions des cartes** : Adaptées pour un affichage optimal sur desktop et mobile
+5. **Navigation** : Lien fonctionnel entre les deux pages via le bouton "Suivant"
+
+### Éléments techniques :
+- **Tailwind CSS v4** utilisé pour tous les styles
+- **Icônes SVG** intégrées pour les fonctionnalités et décorations
+- **JavaScript minimal** pour la gestion des méthodes de paiement
+- **Structure Laravel Blade** pour la réutilisabilité des composants
+
+### Arbitrages visuels :
+- **Taille des cartes** : Réduites à 320px de largeur pour un meilleur affichage sur écrans standards
+- **Espacement** : Optimisé pour la lisibilité et l'harmonie visuelle
+- **Footer** : Maintenu sticky avec toutes les informations essentielles (date, lieu, total, action)
