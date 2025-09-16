@@ -22,7 +22,8 @@
     </div>
 
     <!-- Main Content -->
-     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="main-content-payment">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
           
             <!-- Section principale - Confirmer et payer -->
@@ -225,6 +226,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
 </body>
