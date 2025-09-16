@@ -1,0 +1,39 @@
+/* Styles personnalisés pour la page de paiement */
+
+/* Header personnalisé */
+.header-custom {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #e5e7eb;
+    display: flex;
+    align-items: center;
+}
+
+.header-custom img {
+    height: 60px;
+    width: auto;
+}
+
+/* Container du titre avec rectangle */
+.title-container {
+    background-color: #f3f4f6;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.title-main {
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin: 0;
+    line-height: 1.25;
+}
+
+/* Reset de base pour le body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    background-color: #f9fafb;
+}
