@@ -5,37 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Test psychotechnique pour permis de conduire à Montgeron</title>
     @vite('resources/css/app.css')
+    <link rel="stylesheet" href="{{ asset('css/reservation.css') }}">
 </head>
-<body class="bg-gray-50 min-h-screen">
+<body>
     <!-- Header -->
-    <header class="bg-white shadow-sm">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-            <div class="flex items-center">
-                <!-- Logo AAAEP -->
-                <div class="flex items-center">
-                
-                </div>
-            </div>
-        </div>
+    <header class="header-custom">
+        <img src="{{ asset('images/logo.png') }}" alt="AAAEP - Centre National des Tests Psychotechniques">
     </header>
 
+    <!-- Title Container with Rectangle -->
+    <div class="title-container">
+        <h1 class="title-main">
+            Test psychotechnique pour permis de conduire à Montgeron
+        </h1>
+    </div>
+
     <!-- Main Content -->
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <!-- Title -->
-        <div class="mb-8">
-            <h1 class="text-2xl font-semibold text-blue-700 mb-2">
-                Test psychotechnique pour permis de conduire à Montgeron
-            </h1>
-        </div>
+    <main class="main-content">
+        <!-- Subtitle -->
+        <h2 class="subtitle-main">
+            Confirmer et payer
+        </h2>
 
         <div class="flex flex-col lg:flex-row gap-8">
             <!-- Left Content -->
             <div class="flex-1 lg:w-2/3">
                 <!-- Confirmer et payer Section -->
                 <div class="mb-8">
-                    <h2 class="text-xl font-semibold text-gray-800 mb-6">
-                        Confirmer et payer
-                    </h2>
 
                     <!-- Alert -->
                     <div class="bg-orange-50 border-l-4 border-orange-400 p-4 mb-6">

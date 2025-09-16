@@ -1,0 +1,19 @@
+<svg width="302" height="60" viewBox="0 0 302 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Red arc -->
+  <path d="M5 30C5 15.088 17.088 3 32 3C46.912 3 59 15.088 59 30" stroke="#E53E3E" stroke-width="6" stroke-linecap="round" fill="none"/>
+  
+  <!-- Blue arc -->
+  <path d="M5 30C5 44.912 17.088 57 32 57C46.912 57 59 44.912 59 30" stroke="#3182CE" stroke-width="6" stroke-linecap="round" fill="none"/>
+  
+  <!-- Center circle -->
+  <circle cx="32" cy="30" r="8" fill="#2D3748"/>
+  
+  <!-- Text AAAEP -->
+  <text x="82" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2D3748">AAAEP</text>
+  
+  <!-- Text CENTRE NATIONAL -->
+  <text x="82" y="40" font-family="Arial, sans-serif" font-size="12" fill="#4A5568">CENTRE NATIONAL</text>
+  
+  <!-- Text DES TESTS PSYCHOTECHNIQUES -->
+  <text x="82" y="52" font-family="Arial, sans-serif" font-size="12" fill="#4A5568">DES TESTS PSYCHOTECHNIQUES</text>
+</svg>
