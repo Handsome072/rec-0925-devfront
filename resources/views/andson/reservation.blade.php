@@ -38,27 +38,32 @@
                     <p class="subtitle">Votre test psychotechnique simple</p>
                 </div>
                 <div class="card-basic-body">
-                    <div class="price">+ 0€</div>
+                    <div class="price-section">
+                        <div class="price">+ 0€</div>
+                    </div>
 
-                    <button class="btn">Sélectionner</button>
+                    <button class="btn">
+                        <div style="width: 12px; height: 12px; background: #FFFFFF; border-radius: 50%; margin-right: 8px;"></div>
+                        Sélectionner
+                    </button>
 
                     <!-- Features -->
                     <div class="features">
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <img src="{{ asset('images/Natural User Interface 2-595b40b85ba036ed117ddbf9.svg') }}" alt="Entraînement" width="20" height="20">
+                                <img src="{{ asset('images/Natural User Interface 2-595b40b85ba036ed117ddbf9.svg') }}" alt="Entraînement" width="25" height="29">
                             </div>
                             <span class="feature-text">Entraînement illimité et gratuit</span>
                         </div>
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <img src="{{ asset('images/success-svgrepo-com.svg') }}" alt="Annulation" width="20" height="20">
+                                <img src="{{ asset('images/success-svgrepo-com.svg') }}" alt="Annulation" width="25" height="29">
                             </div>
                             <span class="feature-text">Annulation jusqu'à 48 heures</span>
                         </div>
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <svg width="20" height="20" fill="#666666" viewBox="0 0 20 20">
+                                <svg width="25" height="29" fill="#353535" viewBox="0 0 20 20">
                                     <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                             </svg>
                             </div>
@@ -75,13 +80,17 @@
                     <p class="subtitle">Votre test psychotechnique sans stress</p>
                 </div>
                 <div class="card-assurance-body">
-                    <div class="price">+ 40€</div>
-                    <p class="price-subtitle">À peine le prix d'un resto</p>
+                    <div class="price-section">
+                        <div class="price">+ 40€</div>
+                        <p class="price-subtitle">À peine le prix d'un resto</p>
+                    </div>
 
                     <button class="btn">
-                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
-                        </svg>
+                        <div style="width: 16px; height: 16px; background: #FFFFFF; border-radius: 50%; margin-right: 8px; display: flex; align-items: center; justify-content: center;">
+                            <svg width="10" height="8" fill="#0DBC0D" viewBox="0 0 10 8">
+                                <path d="M9 1L3.5 6.5L1 4" stroke="#0DBC0D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                            </svg>
+                        </div>
                         Sélectionner
                     </button>
 
@@ -89,27 +98,25 @@
                     <div class="features">
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <img src="{{ asset('images/Natural User Interface 2-595b40b85ba036ed117ddbf9.svg') }}" alt="Entraînement" width="20" height="20">
+                                <img src="{{ asset('images/Natural User Interface 2-595b40b85ba036ed117ddbf9.svg') }}" alt="Entraînement" width="25" height="29">
                             </div>
                             <span class="feature-text">Entraînement illimité et gratuit</span>
                         </div>
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <img src="{{ asset('images/success-svgrepo-com.svg') }}" alt="Annulation" width="20" height="20" style="filter: brightness(0) saturate(100%) invert(47%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);">
+                                <img src="{{ asset('images/success-svgrepo-com.svg') }}" alt="Annulation" width="25" height="29">
                             </div>
                             <span class="feature-text">Annulation jusqu'à 48 heures</span>
                         </div>
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <svg width="20" height="20" fill="#0DBC0D" viewBox="0 0 24 24">
-                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                                </svg>
+                                <img src="{{ asset('images/load.svg') }}" alt="Repassez votre test" width="25" height="29">
                             </div>
                             <span class="feature-text">Repassez votre test pour 0€ (si test échoué)</span>
                         </div>
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <svg width="20" height="20" fill="#666666" viewBox="0 0 20 20">
+                                <svg width="25" height="29" fill="#353535" viewBox="0 0 20 20">
                                     <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                                 </svg>
                             </div>
@@ -117,7 +124,7 @@
                         </div>
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <img src="{{ asset('images/livre.png') }}" alt="Livret" width="20" height="20">
+                                <img src="{{ asset('images/livre.png') }}" alt="Livret" width="25" height="29">
                             </div>
                             <span class="feature-text">Livret de préparation au test psychotechnique</span>
                         </div>
@@ -132,8 +139,10 @@
                     <p class="subtitle">Votre test psychotechnique tout compris</p>
                 </div>
                 <div class="card-complet-body">
-                    <div class="price">+ 60€</div>
-                    <p class="price-subtitle">À peine le prix de 4 pizzas</p>
+                    <div class="price-section">
+                        <div class="price">+ 60€</div>
+                        <p class="price-subtitle">À peine le prix de 4 pizzas</p>
+                    </div>
 
                     <button class="btn">
                         <div style="width: 12px; height: 12px; background: #FFFFFF; border-radius: 50%; margin-right: 8px;"></div>
@@ -144,27 +153,25 @@
                     <div class="features">
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <img src="{{ asset('images/Natural User Interface 2-595b40b85ba036ed117ddbf9.svg') }}" alt="Entraînement" width="20" height="20">
+                                <img src="{{ asset('images/Natural User Interface 2-595b40b85ba036ed117ddbf9.svg') }}" alt="Entraînement" width="25" height="29">
                             </div>
                             <span class="feature-text">Entraînement illimité et gratuit</span>
                         </div>
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <img src="{{ asset('images/success-svgrepo-com.svg') }}" alt="Annulation" width="20" height="20" style="filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);">
+                                <img src="{{ asset('images/success-svgrepo-com.svg') }}" alt="Annulation" width="25" height="29">
                             </div>
                             <span class="feature-text">Annulation jusqu'à 24 heures</span>
                         </div>
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <svg width="20" height="20" fill="#36578A" viewBox="0 0 24 24">
-                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                                </svg>
+                                <img src="{{ asset('images/load.svg') }}" alt="Repassez votre test" width="25" height="29">
                             </div>
                             <span class="feature-text">Repassez votre test pour 0€ (si test échoué)</span>
                         </div>
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <svg width="20" height="20" fill="#666666" viewBox="0 0 20 20">
+                                <svg width="25" height="29" fill="#353535" viewBox="0 0 20 20">
                                     <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                                 </svg>
                             </div>
@@ -172,13 +179,13 @@
                         </div>
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <img src="{{ asset('images/livre.png') }}" alt="Livret" width="20" height="20">
+                                <img src="{{ asset('images/livre.png') }}" alt="Livret" width="25" height="29">
                             </div>
                             <span class="feature-text">Livret de préparation au test psychotechnique</span>
                         </div>
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <img src="{{ asset('images/download.png') }}" alt="Téléchargement" width="20" height="20">
+                                <img src="{{ asset('images/download.png') }}" alt="Téléchargement" width="25" height="29">
                             </div>
                             <span class="feature-text">Téléchargez vos résultats en illimité</span>
                         </div>

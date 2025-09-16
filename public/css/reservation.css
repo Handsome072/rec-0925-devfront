@@ -20,7 +20,6 @@ body {
     height: 60px;
 }
 
-/* Title Container with Rectangle */
 .title-container {
     width: 100%;
     height: 121px;
@@ -47,8 +46,8 @@ body {
     color: #36578A;
     opacity: 1;
     margin: 0;
-    white-space: nowrap; /* Empêche le retour à la ligne */
-    overflow: visible; /* Permet au texte de dépasser si nécessaire */
+    white-space: nowrap; 
+    overflow: visible; 
 }
 
 /* Subtitle */
@@ -61,16 +60,16 @@ body {
     color: #383838;
     opacity: 1;
     margin: 0;
-    margin-top: 38px; /* 307px - 163px - 40px = 104px + 40px pour l'espace depuis le titre */
-    margin-bottom: 38px; /* 403px - 307px - 38px = 58px + 38px pour l'espace */
-    white-space: nowrap; /* Empêche le retour à la ligne */
+    margin-top: 38px; 
+    margin-bottom: 38px; 
+    white-space: nowrap; 
     overflow: visible; 
 }
 
 /* Cards Container */
 .cards-container {
     display: flex;
-    gap: 73px; /* 711px - 139px - 499px = 73px entre Basic et Assurance */
+    gap: 73px; 
     margin-bottom: 100px;
 }
 
@@ -96,13 +95,15 @@ body {
 }
 
 .card-basic-header h3 {
-    font: normal normal bold 24px/30px Lato;
+    font: normal normal bold 28px/34px Lato;
+    letter-spacing: 0px;
     color: #383838;
     margin: 0;
 }
 
 .card-basic-header .subtitle {
-    font: normal normal 16px/20px Lato;
+    font: normal normal normal 20px/24px Lato;
+    letter-spacing: 0px;
     color: #666666;
     margin: 5px 0 0 0;
 }
@@ -115,24 +116,42 @@ body {
     opacity: 1;
     padding: 40px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.price-section {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
 }
 
 .card-basic .price {
-    font: normal normal bold 48px/60px Lato;
+    font: normal normal bold 61px/73px Lato;
+    letter-spacing: 0px;
     color: #383838;
-    margin: 0 0 30px 0;
+    margin: 0;
 }
 
 .card-basic .btn {
-    width: 100%;
+    width: 245px;
+    height: 61px;
     background: #F0F0F0;
     color: #666666;
-    padding: 15px;
     border: none;
-    border-radius: 25px;
-    font: normal normal bold 16px/20px Lato;
-    margin-bottom: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 3px 6px #00000029;
+    font: normal normal bold 26px/32px Lato;
+    margin-bottom: 0px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Assurance Card */
@@ -157,13 +176,15 @@ body {
 }
 
 .card-assurance-header h3 {
-    font: normal normal bold 24px/30px Lato;
+    font: normal normal bold 28px/34px Lato;
+    letter-spacing: 0px;
     color: #FFFFFF;
     margin: 0;
 }
 
 .card-assurance-header .subtitle {
-    font: normal normal 16px/20px Lato;
+    font: normal normal normal 20px/24px Lato;
+    letter-spacing: 0px;
     color: #FFFFFF;
     margin: 5px 0 0 0;
 }
@@ -176,29 +197,36 @@ body {
     opacity: 1;
     padding: 40px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card-assurance .price {
-    font: normal normal bold 48px/60px Lato;
+    font: normal normal bold 61px/73px Lato;
+    letter-spacing: 0px;
     color: #383838;
-    margin: 0 0 5px 0;
+    margin: 0;
 }
 
 .card-assurance .price-subtitle {
-    font: normal normal 14px/18px Lato;
-    color: #666666;
-    margin: 0 0 30px 0;
+    text-align: center;
+    font: normal normal normal 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+    margin: 0;
 }
 
 .card-assurance .btn {
-    width: 100%;
+    width: 245px;
+    height: 61px;
     background: #0DBC0D;
     color: #FFFFFF;
-    padding: 15px;
     border: none;
-    border-radius: 25px;
-    font: normal normal bold 16px/20px Lato;
-    margin-bottom: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 3px 6px #00000029;
+    font: normal normal bold 26px/32px Lato;
+    margin-bottom: 0px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -227,13 +255,15 @@ body {
 }
 
 .card-complet-header h3 {
-    font: normal normal bold 24px/30px Lato;
+    font: normal normal bold 28px/34px Lato;
+    letter-spacing: 0px;
     color: #FFFFFF;
     margin: 0;
 }
 
 .card-complet-header .subtitle {
-    font: normal normal 16px/20px Lato;
+    font: normal normal normal 20px/24px Lato;
+    letter-spacing: 0px;
     color: #FFFFFF;
     margin: 5px 0 0 0;
 }
@@ -246,29 +276,36 @@ body {
     opacity: 1;
     padding: 40px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card-complet .price {
-    font: normal normal bold 48px/60px Lato;
+    font: normal normal bold 61px/73px Lato;
+    letter-spacing: 0px;
     color: #383838;
-    margin: 0 0 5px 0;
+    margin: 0;
 }
 
 .card-complet .price-subtitle {
-    font: normal normal 14px/18px Lato;
-    color: #666666;
-    margin: 0 0 30px 0;
+    text-align: center;
+    font: normal normal normal 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+    margin: 0;
 }
 
 .card-complet .btn {
-    width: 100%;
+    width: 245px;
+    height: 61px;
     background: #36578A;
     color: #FFFFFF;
-    padding: 15px;
     border: none;
-    border-radius: 25px;
-    font: normal normal bold 16px/20px Lato;
-    margin-bottom: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 3px 6px #00000029;
+    font: normal normal bold 26px/32px Lato;
+    margin-bottom: 0px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -278,6 +315,9 @@ body {
 /* Features */
 .features {
     text-align: left;
+    width: 100%;
+    align-self: flex-start;
+    margin-top: 40px;
 }
 
 .feature-item {
@@ -287,15 +327,28 @@ body {
 }
 
 .feature-icon {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 29px;
     margin-right: 15px;
     flex-shrink: 0;
 }
 
+.feature-icon img {
+    width: 25px;
+    height: 29px;
+    object-fit: contain;
+}
+
+
+.feature-icon img[src*="success-svgrepo-com.svg"] {
+    filter: brightness(0) saturate(100%) invert(21%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(95%) contrast(95%);
+}
+
 .feature-text {
-    font: normal normal 14px/18px Lato;
-    color: #666666;
+    text-align: left;
+    font: normal normal normal 20px/24px Lato;
+    letter-spacing: 0px;
+    color: #2C2C2C;
 }
 
 /* Footer */
@@ -321,10 +374,14 @@ body {
 .footer-info {
     display: flex;
     align-items: center;
-    background: white;
+    left: 139px;
+    width: 605px;
+    height: 109px;
+    background: #F2F3F5;
+    border: 1px solid #70707040;
+    border-radius: 20px;
     color: #383838;
-    padding: 12px 20px;
-    border-radius: 8px;
+    padding: 20px;
 }
 
 .footer-info svg {
@@ -332,12 +389,13 @@ body {
 }
 
 .footer-info-title {
-    font: normal normal bold 16px/20px Lato;
+    color: #36578A;
+    font: normal normal bold 25px/30px Lato;
 }
 
 .footer-info-subtitle {
-    font: normal normal 14px/18px Lato;
-    color: #666666;
+    font: normal normal normal 20px/30px Lato;
+    color: #383838;
 }
 
 .footer-actions {
@@ -403,14 +461,14 @@ body {
     .title-main {
         width: 100%;
         max-width: 879px;
-        white-space: nowrap; /* Force le titre à rester sur une ligne */
+        white-space: nowrap;
         overflow: visible;
     }
 
     .subtitle-main {
         width: 100%;
         max-width: 391px;
-        white-space: nowrap; /* Force le sous-titre à rester sur une ligne */
+        white-space: nowrap; 
         overflow: visible;
     }
 }
